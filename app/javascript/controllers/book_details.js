@@ -3,15 +3,15 @@
  */
 angular.module('bookApp').controller('BookDetailsCtrl',function($scope){
     $scope.book = {
-        title: 'testTitle',
-        subtitle: 'testSubtitle',
-        isbn: 'testISBN',
-        abstract: 'testAbstract',
-        numPages: 999,
-        author: 'Mr. Test',
-        publisher: {
-            name: 'testPublisher',
-            url: 'http://test@test.at'
+        title       : 'JavaScript für Enterprise-Entwickler',
+        subtitle    : 'Professionell programmieren im Browser und auf dem Server',
+        isbn        : '978-3-89864-728-1',
+        abstract    : 'JavaScript ist längst nicht mehr nur für klassische Webprogrammierer interessant.',
+        numPages    : 302,
+        author      : 'Oliver Ochs',
+        publisher   : {
+            name: 'dpunkt.verlag',
+            url : 'http://dpunkt.de/'
         }
     };
 });

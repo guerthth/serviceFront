@@ -1,0 +1,33 @@
+{
+  "name": "bookApp",
+  "version": "0.0.1",
+  "description": "A simple app communicating with an webservice for book CRUD",
+  "main": "app/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start",
+    "posttest": "karma start karma-e2e.conf.js"
+  },
+  "repository": "",
+  "keywords": [
+    "angularjs",
+    "angularjs-de"
+  ],
+  "author": "TG",
+  "homepage": "",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "0.12.0",
+    "karma-chrome-launcher": "0.2.0",
+    "karma-jasmine": "0.2.2",
+    "karma-ng-scenario": "0.1.0",
+    "karma-ng-html2js-preprocessor": "0.1.0",
+    "karma-firefox-launcher": "1.0.0",
+    "protractor": "4.0.4"
+  },
+  "dependencies": {
+    "should": "^11.1.0"
+  }
+}

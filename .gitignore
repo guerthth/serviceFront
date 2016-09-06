@@ -1,2 +1,8 @@
 # exclude ide file
 .idea
+
+# exlude node_modules
+node_modules/
+
+# exclude bower_components
+bower_components/
